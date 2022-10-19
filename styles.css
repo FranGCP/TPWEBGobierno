@@ -660,6 +660,13 @@ small {
 /* Escritorio */
 
 @media (max-width: 640px){
+    #galeria{
+        display: flex;
+        flex-direction: column;
+    } 
+    #galeria .container{
+        margin-left: 20px;
+    }
    #cartas .container .container-cartas .carta{
     margin: 10px;
    }
