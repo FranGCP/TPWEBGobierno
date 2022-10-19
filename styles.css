@@ -690,7 +690,7 @@ small {
 @media (min-width: 1007px) {
     #cartas .container .container-cartas{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     #cartas .container .container-cartas .carta p{
         display: block;
