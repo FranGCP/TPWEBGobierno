@@ -659,38 +659,33 @@ small {
 
 /* Escritorio */
 
-@media (min-width: 720px) {
-
-    /* Header */
-    header .container {
-        flex-direction: row;
-        justify-content: space-between;
+@media (max-width: 640px){
+   #cartas .container .container-cartas .carta{
+    margin: 10px;
+   }
+   #cartas .container .container-cartas{
+    display: flex;
+    flex-direction: column;
+   } 
+}
+@media (max-width: 1007px){
+    #cartas .container .container-cartas{
+        display: flex; 
     }
-
-    header nav {
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-left: 20px;
-        padding-right: 20px;
+    #cartas .container .container-cartas .carta{
+        margin: 10px;
     }
+    #cartas .container .container-cartas .carta p{
+        display: none;
+    } 
+}
 
-    /* Header */
-
-    
-
-    /* Cartas */
-    #cartas .container .carta p {
+@media (min-width: 1007px) {
+    #cartas .container .container-cartas{
+        display: flex;
+        flex-direction: column;
+    }
+    #cartas .container .container-cartas .carta p{
         display: block;
     }
-
-    #cartas .container-cartas {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px;
-        margin: auto;
-    }
-    /* Cartas */
-
-
 }
