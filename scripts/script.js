@@ -79,8 +79,20 @@ const validateInputs = () => {
 
 // Api ReCaptcha //
 
-function onSubmit(token) {
-   document.getElementById("formulario").submit();
- }
+var myForm = $('my-form');
 
+function submitMyForm () {
+    myForm.trigger('submit', [true]);
+}
+
+$(function () {
+    myForm.on('submit', function (e, skipRecaptcha) {
+        if(skipRecaptcha) {
+            return;
+        }
+
+        e.preventDefault();
+        grecaptcha.execute();
+    });
+  })
 
