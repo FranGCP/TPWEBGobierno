@@ -657,6 +657,7 @@ h3 {
 }
 #cartas .container .container-cartas{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     padding: 10px;
     margin: 0px;
@@ -665,16 +666,19 @@ h3 {
 }
 #cartas .container .container-cartas .carta{
     margin: 10;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px 1px rgba(175, 175, 175, 0.616);
 }
 #cartas h3 {
     margin: 0;
     padding: 10px;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.555);
+    box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.64);
+    border-radius: 30% 30% 0% 0%;
 }
 #cartas .container .carta p {
-    display: none;
-    background-color: rgba(128, 128, 128, 0.7);
+    display: none; 
 }
 
 .carta:first-child {
@@ -684,7 +688,7 @@ h3 {
     padding: 50px;
     margin: 20px;
     box-shadow: 0 0 10px;
-
+   
 }
 .carta:nth-child(2) {
     background-image: url(/img/Muestras/images.jpg);
@@ -704,6 +708,7 @@ h3 {
     box-shadow: 0 0 10px;
 
 }
+
 /* Cartas */
 
 /* Escritorio */
@@ -717,11 +722,11 @@ h3 {
         margin-left: 20px;
     }
    #cartas .container .container-cartas .carta{
-    margin: 10px;
+        margin: 10px;
    }
    #cartas .container .container-cartas{
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
    }
 }
 @media (max-width: 1007px){
@@ -757,5 +762,11 @@ h3 {
     }
     #cartas .container .container-cartas .carta p{
         display: block;
+        font-weight: 600;
+        background-color: rgba(0, 0, 0, 0.90);
+        color: rgb(76, 76, 172);
+        border-radius: 0% 0% 30% 30%;
+        box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.64);
+        padding: 10px;
     }
 }
