@@ -708,7 +708,7 @@ h3 {
 }
 
 .carta:first-child {
-    background-image: url(/img/Muestras/DALL·E-2022-08-19-07.42.31-_bro-cat-with-backwards-hat-and-headphones-and-safety-glasses_-_bro-cat-is-folding-laundry_-_background-is-a-woodworking-shop_-cinematic-lighting-.webp);
+    background-image: url(../img/Muestras/DALL·E-2022-08-19-07.42.31-_bro-cat-with-backwards-hat-and-headphones-and-safety-glasses_-_bro-cat-is-folding-laundry_-_background-is-a-woodworking-shop_-cinematic-lighting-.webp);
     background-position: center center;
     background-size: cover;
     padding: 50px;
@@ -717,7 +717,7 @@ h3 {
    
 }
 .carta:nth-child(2) {
-    background-image: url(/img/Muestras/images.jpg);
+    background-image: url(../img/Muestras/images.jpg);
     background-position: center center;
     background-size: cover;
     padding: 50px;
@@ -726,7 +726,7 @@ h3 {
 
 }
 .carta:last-child {
-    background-image: url(/img/Muestras/FQuCS4IVUAAVyRV.jpg);
+    background-image: url(../img/Muestras/FQuCS4IVUAAVyRV.jpg);
     background-position: center center;
     background-size: cover;
     padding: 50px;
