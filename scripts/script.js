@@ -66,7 +66,7 @@ const validateInputs = () => {
 
     if(telefonoValue === '') {
         setError(telefono, 'Debe ingresar un telefono');
-    } else if (!isValidEmail(telefonoValue)) {
+    } else if (!isValidTelefono(telefonoValue)) {
         setError(telefono, 'Ingresar un telefono valido');
     } else {
         setSuccess(telefono);
